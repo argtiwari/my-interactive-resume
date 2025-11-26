@@ -3,8 +3,8 @@
 > **Warning:** This is not just a PDF. It's a digital playground.  
 > *Proceed with curiosity.* 🚀
 
-![Project Banner](public/portfolio.png) 
-aaa
+![Project Banner](public/image.png)g
+https://my-interactive-resume-two.vercel.app/
 
 ---
 
@@ -14,7 +14,7 @@ Standard resumes are boring. As a developer, I believe my resume should demonstr
 This project is a **Hybrid Resume**—a fusion of a professional document and an interactive web app.
 
 ### 🌟 Live Demo
-👉 **[Click Here to Enter the System](https://your-vercel-link-here.app)** *(Don't forget to try the secret code... if you can find it)*
+👉 **[Click Here to Enter the System](https://my-interactive-resume-two.vercel.app/)** *(Don't forget to try the secret code... if you can find it)*
 
 ---
 
@@ -57,7 +57,7 @@ Want to inspect the code? Follow these steps to clone the system:
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/your-username/interactive-resume.git](https://github.com/your-username/interactive-resume.git)
+git clone [https://github.com/argtiwari/my-interactive-resume.git]
 
 # 2. Enter the directory
 cd interactive-resume

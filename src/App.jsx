@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Download, ExternalLink, Github, Linkedin, Mail, MapPin, Phone, Moon, Sun, Code, Briefcase, FileJson, User, Award, UserCheck, Globe, Cpu, BookOpen, Layers, Send, X } from 'lucide-react';
+import { Download, ExternalLink, Github, Linkedin, Mail,Instagram, MapPin, Phone, Moon, Sun, Code, Briefcase, FileJson, User, Award, UserCheck, Globe, Cpu, BookOpen, Layers, Send, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
 import confetti from 'canvas-confetti';
@@ -140,7 +140,7 @@ const Resume = () => {
       {
         role: "Hardware Technician",
         company: "STS Computer and Mobile Center",
-        duration: "02/2024 - 09/2024",
+        duration: "02/2022 - 09/2022",
         desc: [
           "Specialized in PC assembling, hardware upgrades, and system diagnosis.",
           "Performed software installations and OS setups."
@@ -181,8 +181,8 @@ const Resume = () => {
   };
 
   const projects = [
-    { title: "E-Commerce Dashboard", desc: "MERN Stack admin panel with inventory management.", tags: ["React", "Node", "MongoDB"], link: "#", img: "/ecommerce.png" },
-    { title: "Politician Portfolio", desc: "Static site with SEO and animations.", tags: ["React", "Tailwind"], link: "#", img: "/portfolio.png" },
+    { title: "E-Commerce Dashboard", desc: "MERN Stack admin panel with inventory management.", tags: ["React", "Node", "MongoDB"], link: "https://argtiwari.github.io/CareerPath-India/", img: "/ecommerce.png" },
+    { title: "Politician Portfolio", desc: "Static site with SEO and animations.", tags: ["React", "Tailwind"], link: "https://www.amrendrakumaratri.in/", img: "/portfolio.png" },
     { title: "Task Manager App", desc: "Productivity tool with drag-and-drop.", tags: ["JS", "Firebase"], link: "#", img: "/taskapp.png" }
   ];
 
@@ -234,7 +234,7 @@ const Resume = () => {
   );
 
   return (
-    <div className={`${darkMode ? 'dark bg-gray-950' : 'bg-gray-100'} min-h-screen transition-colors duration-300 print:bg-white`}>
+    <div className={`${darkMode ? 'dark bg-gray-950' : 'bg-gray-100'} flex flex-col min-h-screen transition-colors duration-300 print:bg-white`}>
       
       {/* 1. Optimized Mouse Follower (Sirf Desktop par) */}
       <MouseFollower />
@@ -284,8 +284,9 @@ const Resume = () => {
                     <div className="flex md:justify-end gap-2 items-center"><a href={`mailto:${resumeData.contact.email}`} className="hover:text-blue-400 break-all">{resumeData.contact.email}</a> <Mail size={12}/></div>
                     <div className="flex md:justify-end gap-2 items-center"><span>{resumeData.contact.location}</span> <MapPin size={12}/></div>
                     <div className="flex md:justify-end gap-3 mt-2 text-white">
-                      <Github size={16} className="cursor-pointer hover:text-blue-400"/>
-                      <Linkedin size={16} className="cursor-pointer hover:text-blue-400"/>
+                      <a href="https://github.com/argtiwari"><Github size={16} className="cursor-pointer hover:text-blue-400"/></a>
+                      <a href="https://www.linkedin.com/in/anurag-tiwari-9a3185392/"><Linkedin size={16} className="cursor-pointer hover:text-blue-400"/></a>
+                      <a href="https://www.instagram.com/argtiwari/"><Instagram size={16} className="cursor-pointer hover:text-blue-400"/></a>
                     </div>
                   </div>
                 </div>
@@ -389,7 +390,7 @@ const Resume = () => {
               </div>
 
                <div className="bg-gray-100 dark:bg-gray-900 p-4 text-center text-xs text-gray-500 print:hidden border-t dark:border-gray-700">
-                 <p>Interactive Resume © 2025 {resumeData.name}. Built with React & Tailwind.</p>
+                 <p>Interactive Resume © 2025 <a href="https://www.instagram.com/argcoding/"><span className="font-extrabold underline text-red-300">ArgCoding</span></a>. Built with React & Tailwind.</p>
                </div>
             </Tilt>
           </motion.div>
